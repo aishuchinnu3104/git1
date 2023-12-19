@@ -9,6 +9,9 @@ int a=10,b=20;
 sub()
 {
   printf("Diff=%d",a-b);
-mul();
+}
+mul()
+{
+  printf("Mul=%d",a*b);
 div();
 }
